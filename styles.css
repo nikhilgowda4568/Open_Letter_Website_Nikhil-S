@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #121212;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Intro Page with Background Image */
+.intro {
+    height: 100vh; /* Full viewport height */
+    background: url('BK Images/bk1.jpg') no-repeat center center/cover; /* Background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Text shadow */
+}
+
+.intro .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.intro .btn:hover {
+    background: #ff3d2e;
+}
+
+/* Open Letter Section with Background Image */
+.letter {
+    padding: 100px 20px;
+    background: url('BK Images/bk4.png') no-repeat center center/cover; /* Open Letter background image */
+    color: #ffffff; /* Light text for good contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+    margin: 40px 0;
+    text-align: left;
+}
+
+.letter h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00ffff; /* Cyan for tech-inspired look */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.letter-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f0f0f0; /* Slightly lighter text for readability */
+}
+
+.letter-content p {
+    margin-bottom: 20px;
+}
+
+.letter-content strong {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Key Areas Section */
+.key-areas {
+    background: #1e1e1e;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.key-areas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #2c2c2c;
+    padding: 18px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.6);
+}
+
+.card img {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    color: #76e0e0;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 3px rgba(0, 255, 255, 0.7);
+}
+
+.card p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+.actNow {
+    background: linear-gradient(135deg, #ff6f61, #ff3d2e);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.actNow h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.actNow p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.actNow .btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #ff3d2e;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.actNow .btn:hover {
+    background: #ff3d2e;
+    color: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
